@@ -5,7 +5,7 @@ function Show() {
   return (
     <div
       className="flex items-center justify-center w-screen h-screen text-center bg-center bg-cover"
-     style={{ backgroundImage:'url("https://drive.google.com/file/d/17yeiC5WY4KYeRlgFTTQlXQQ8s5Xo7djN/view?usp=sharing")' }}
+     style={{ backgroundImage:'url("https://i2.pickpik.com/photos/945/440/873/sparkler-fireworks-colors-diwali-preview.jpg")' }}
     >
       <div className="relative z-10 flex flex-wrap items-center justify-center w-screen h-screen gap-20 ml-5 overflow-hidden text-2xl sm:text-5xl md:ml-20 sm:ml-10 sm:gap-40 md:gap-60">
         <h3 className="animate-ping">😊</h3>
