@@ -3,7 +3,7 @@ function Home() {
   return (
     <div
       className="flex items-center justify-center w-screen h-screen text-center bg-center bg-cover"
-      style={{ backgroundImage:    'url("https://as1.ftcdn.net/v2/jpg/02/15/68/16/1000_F_215681692_1x7EfxyCPRxn357Lpwcb5oRa6sfHewgV.jpg")' }}
+      style={{ backgroundImage:    'url("/bg.jpg")' }}
     >
       <div className="relative z-10 flex flex-wrap items-center justify-center w-screen h-screen gap-20 ml-5 overflow-hidden text-2xl animate-bounce sm:text-5xl md:ml-20 sm:ml-10 sm:gap-40 md:gap-60">
         <h3 className="animate-ping">😊</h3>
