@@ -3,7 +3,7 @@ function Home() {
   return (
     <div
       className="flex items-center justify-center w-screen h-screen text-center bg-center bg-cover"
-      style={{ backgroundImage: 'url("https://raw.githubusercontent.com/LalitPro/Diwal/refs/heads/main/src/bg.jpg")' }}
+      style={{ backgroundImage: 'url("https://img.freepik.com/free-vector/yellow-background-with-center-glowing-light-effect_1017-26185.jpg?t=st=1730087770~exp=1730091370~hmac=4870f9be1bfab6f005aaa0c61febbd0854c89411b8196b09ae3b2e919b910192&w=900")' }}
     >
       <div className="relative z-10 flex flex-wrap items-center justify-center w-screen h-screen gap-20 ml-5 overflow-hidden text-2xl animate-bounce sm:text-5xl md:ml-20 sm:ml-10 sm:gap-40 md:gap-60">
         <h3 className="animate-ping">😊</h3>
