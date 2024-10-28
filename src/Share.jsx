@@ -31,7 +31,7 @@ function Share() {
   return (
     <div
       className="flex items-center justify-center w-screen h-screen text-center bg-center bg-cover"
-      style={{ backgroundImage:'url("bg.jpg")' }}
+      style={{ backgroundImage:'url("https://drive.google.com/file/d/17yeiC5WY4KYeRlgFTTQlXQQ8s5Xo7djN/view?usp=sharing")' }}
     >
       <div className="relative z-10 flex flex-wrap items-center justify-center w-screen h-screen gap-20 ml-5 overflow-hidden text-2xl sm:text-5xl md:ml-20 sm:ml-10 sm:gap-40 md:gap-60">
         <h3 className="animate-ping">😊</h3>
