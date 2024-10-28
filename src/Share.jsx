@@ -15,7 +15,7 @@ function Share() {
 
   function showUrlBox() {
     console.log("inputValue", inputValue);
-    const data = "https://lala.com/" + inputValue;
+    const data = "https://subhdiwali.netlify.app/" + inputValue;
     console.log("data", data);
     if (inputValue == "") {
       console.log("showURlBOx", "returner");
@@ -31,7 +31,7 @@ function Share() {
   return (
     <div
       className="flex items-center justify-center w-screen h-screen text-center bg-center bg-cover"
-      style={{ backgroundImage: 'url("src/bg.jpg")' }}
+      style={{ backgroundImage: 'url("https://raw.githubusercontent.com/LalitPro/DiwaliHappy/refs/heads/main/src/bg.jpg?token=GHSAT0AAAAAACZHEJ3QZ7PUX4523FBRARGYZY7APPA")' }}
     >
       <div className="relative z-10 flex flex-wrap items-center justify-center w-screen h-screen gap-20 ml-5 overflow-hidden text-2xl sm:text-5xl md:ml-20 sm:ml-10 sm:gap-40 md:gap-60">
         <h3 className="animate-ping">😊</h3>
