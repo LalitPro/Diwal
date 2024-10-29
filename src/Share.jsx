@@ -1,5 +1,10 @@
 import { useEffect, useState } from "react";
 function Share() {
+   const emojis = [
+    "😊", "🔥", "🌟", "☀️", "⚡️", "🍰", "🎂", "🎇", 
+    "😀", "🎈", "😮", "😲", "🤭", "😎", "😉"
+  ];
+  
   const [showUrl, setShowUrl] = useState(false);
   useEffect(function () {
     setShowUrl(false);
