@@ -1,5 +1,9 @@
 import React from "react";
 function Show() {
+   const emojis = [
+    "😊", "🔥", "🌟", "☀️", "⚡️", "🍰", "🎂", "🎇", 
+    "😀", "🎈", "😮", "😲", "🤭", "😎", "😉"
+  ];
   const path = window.location.pathname;
   const naam = path.slice(1).toUpperCase();
   return (
