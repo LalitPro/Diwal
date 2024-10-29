@@ -5,7 +5,8 @@ import Share from "./Share";
 function App() {
   const path = window.location.pathname;
   return (
-    <div className="w-screen h-screen overflow-hidden">
+    <div className="w-screen h-screen overflow-hidden bg-cover "
+      style={{backgroundImage: 'url()'}}>
       {path == "/" && <Home />}
       {path == "/home" && <Home />}
       {path == "/home/" && <Home />}
