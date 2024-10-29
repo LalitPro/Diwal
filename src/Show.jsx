@@ -31,7 +31,7 @@ function Show() {
           आपको और आपके परिवार को दिवाली की हार्दिक शुभकामनाएँ....
         </p>
         <h1
-          className="z-50 mt-5 text-5xl font-semibold text-red-500 text-pretty sm:text-7xl xl:text-9xl"
+          className="z-50 mt-5 text-5xl font-semibold text-red-500 text-pretty sm:text-7xl xl:text-9xl animate-ping"
           style={{ filter: "drop-shadow(5px 5px 5px white)" }}
         >
           {naam}
