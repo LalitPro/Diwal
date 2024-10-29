@@ -36,23 +36,11 @@ function Share() {
   return (
     <div
       className="flex items-center justify-center w-screen h-screen text-center">
-      <div className="relative z-10 flex flex-wrap items-center justify-center w-screen h-screen gap-20 ml-5 overflow-hidden text-2xl sm:text-5xl md:ml-20 sm:ml-10 sm:gap-40 md:gap-60">
-        <h3 className="animate-ping">😊</h3>
-        <h3 className="animate-ping">🔥</h3>
-        <h3 className="animate-ping">🌟</h3>
-        <h3 className="animate-ping">☀</h3>
-        <h3 className="animate-ping">⚡</h3>
-        <h3 className="animate-ping">🍰</h3>
-        <h3 className="animate-ping">🎂</h3>
-        <h3 className="animate-ping">🎇</h3>
-        <h3 className="animate-ping">😀</h3>
-        <h3 className="animate-ping">🎈</h3>
-        <h3 className="animate-ping">😮</h3>
-        <h3 className=" animate-ping">😲</h3>
-        <h3 className="animate-ping">🤭</h3>
-        <h3 className=" animate-ping">😎</h3>
-        <h3 className=" animate-ping">😉</h3>
-      </div>{" "}
+         {emojis.map((emoji, index) => (
+          <h3 key={index} className="animate-ping">
+            {emoji}
+          </h3>
+        ))}
       <div className="fixed z-50 flex flex-col items-center gap-2 text-3xl text-green-500 sm:text-5xl xl:text-7xl">
         <p
           className="z-50 inline"
