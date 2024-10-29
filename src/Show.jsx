@@ -82,7 +82,7 @@ function Show() {
         </p>
         <h1
           className="z-50 mt-5 text-5xl font-semibold text-red-500 text-pretty sm:text-7xl xl:text-9xl"
-          style={{ filter: "drop-shadow(5px 5px 5px white)" }}
+          style={{ filter: "drop-shadow(5px 5px 5px red)" }}
         >
           {naam}
         </h1>
